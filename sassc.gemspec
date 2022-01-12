@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
 
   spec.add_dependency "bundler"
-  spec.add_dependency "ffi", "~> 1.9.6"
+  spec.add_dependency "ffi", ">= 1.9"
   spec.add_dependency "sass", ">= 3.3.0"
 
   gem_dir = File.expand_path(File.dirname(__FILE__)) + "/"
